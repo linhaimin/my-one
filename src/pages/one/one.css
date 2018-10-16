@@ -1,0 +1,37 @@
+.am-carousel{
+    padding-bottom: 40px;
+}
+.item-date{
+    padding-top: 16px;
+    font-family: 'Courier New';
+    font-size: 20px;
+    line-height: 22px;
+    color: #000000;
+    opacity: 0.6;
+    text-align: center;
+}
+.item-volume-no{
+    margin-top: 4px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #808080;
+    text-align: center;
+}
+.item-cover{
+    width: 100%;
+    height: auto;
+}
+.item-author{
+    margin: 20px 0;
+    font-size: 12px;
+    line-height: 14px;
+    color: #808080;
+    text-align: center;
+}
+.item-content{
+    margin: 20px 16px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+    opacity: 0.6;
+}

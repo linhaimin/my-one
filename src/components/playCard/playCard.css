@@ -1,0 +1,59 @@
+.play-item{
+    padding: 0 20px;
+}
+.play-item .text-tag{
+    padding: 1.0em 0;
+    font-size: 14px;
+    line-height: 1.85em;
+    color: rgba(0, 0, 0, .6);
+    text-align: center;
+}
+.play-item .text-title{
+    margin: 0 0 12px 0;
+    max-height: 2.8em;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+    color: #131313;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: left;
+}
+.play-item .text-author{
+    padding-right: 2.5em;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, .6);
+}
+.play-item .container-cover{
+    margin-bottom: 20px;
+}
+.play-item .cover{
+    width: 100%;
+}
+.play-item .text-content-short{
+    max-height: 3.8em;
+    font-size: 14px;
+    line-height: 1.857em;
+    color: rgba(0, 0, 0, .6);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.play-item .text-play-subtitle{
+    font-size: 14px;
+    line-height: 1.857em;
+    color: rgba(0, 0, 0, .6);
+    text-align: right;
+}
+.play-item .text-date{
+    padding: 1.2em 0 2.0em 0;
+    font-size: 12px;
+    line-height: 1.4em;
+    color: #808080;
+}

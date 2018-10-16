@@ -1,0 +1,101 @@
+p{
+    margin: 0;
+    text-align: left;
+}
+.box-image{
+    position: relative;
+}
+.box-mobilce{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8));
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8));
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8));
+}
+.box-text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0 20px;
+}
+.box-text .day{
+    font-size: 40px;
+    color: #fff;
+}
+.box-text .volume{
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+}
+.box-text .forward{
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* autoprefixer: off*/
+    -webkit-box-orient: vertical;
+    /* autoprefixer: on*/
+}
+.box-text .icon-next{
+    padding: 5px 30px 10px 30px;
+    width: 23px;
+    height: 12px;
+}
+.text-reading,.text-question{
+    padding: 0 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.text-question{
+    padding: 0 20px;
+    margin-bottom: 70px;
+}
+.author{
+    margin-bottom: 10px;
+}
+.text-reading .title,.text-question .title{
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 26px;
+    text-align: left;
+    color: #666;
+}
+.text-reading .short,.text-question .short{
+    max-height: 75px;
+    line-height: 25px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* autoprefixer: off*/
+    -webkit-box-orient: vertical;
+    /* autoprefixer: on*/
+}
+.btn-more{
+    font-size: 15px;
+    line-height: 30px;
+}
+.btn-more a,.text-type a{
+    color: #38c;
+}
+.box-btn-more{
+    margin-bottom: 80px;
+}
+.box-btn-more a{
+    display: block;
+    margin: 0 auto;
+    padding: .7em 1em;
+    width: 100px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #f6f6f6;
+    border: 1px solid #ddd;
+    color: #333;
+    text-shadow: 0 1px 0 #f3f3f3;
+    border-radius: 16px;
+}

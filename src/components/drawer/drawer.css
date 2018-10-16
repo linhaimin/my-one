@@ -1,0 +1,32 @@
+ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.icon-menu{
+    width: 22px;
+    height: 22px;
+    background: url(data:image/jpg;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAABIElEQVR4Xu2YwRHCMAwE7QooAeiEUqAyKIVOSDpIB0af/GKQZ/Q5eTPDT2h0d2sno1omf+rk+gsGQMDkDnAEJgeAS7B7BFprN6Pjab+LOCWLzf+otb6PdPwy4JNA/K55MQOuowZs9oeTePr7+KsZcEjyvyPwsg5ncRNWm/8+fATERbvH5zvAbVXSQghIGqxbFgS4rUpaCAFJg3XLggC3VUkLISBpsG5ZEOC2KmkhBCQN1i0LAnpWsRVuja0wW+FS2Aq7r1PRQt4CosGFjQ0BYVaKNoIA0eDCxoaAMCtFG0GAaHBhY0NAmJWijSBANLiwsSEgzErRRhDAVrjjgK3F2QqzFWYrLHq1D4zNW2DArJSlEJAy1gFREDBgVsrS6Qn4AsDkQkFRMMyPAAAAAElFTkSuQmCC) no-repeat center center;
+    background-size: 100% 100%;
+}
+.my-drawer {
+    position: relative;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.am-drawer-sidebar{
+    padding-top: 15px;
+    width: 180px;
+    background-color: #fff;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.listview>li>a{
+    display: block;
+    padding: .7em 1em;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #999;
+}

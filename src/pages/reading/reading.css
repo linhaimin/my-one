@@ -1,0 +1,43 @@
+.reading-item .item-tag{
+    font-size: 14px;
+    line-height: 1.85em;
+    color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    padding: 1.0em 0;
+}
+.reading-item .item-title{
+    max-height: 2.8em;
+    font-size: 18px;
+    line-height: 1.4em;
+    color: #131313;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.reading-item .item-text-author{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-right: 30px;
+    font-size: 15px;
+    line-height: 1.875em;
+    color: rgba(0, 0, 0, 0.6);
+}
+.reading-item .item-content-short{
+    margin: 10px 0 15px 0;
+    max-height: 3.714em;
+    font-size: 14px;
+    line-height: 1.857em;
+    color: rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.reading-item .item-post-date{
+    font-size: 12px;
+    line-height: 1.4em;
+    color: #808080;
+}
